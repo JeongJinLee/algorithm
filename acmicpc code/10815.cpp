@@ -35,3 +35,5 @@ int main() {
 		printf("%d ", search(temp, 0,n-1));
 	}
 }
+	
+
