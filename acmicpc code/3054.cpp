@@ -55,7 +55,7 @@ int main() {
 			printf(".");
 			cnt++;
 		}
- 
+
 		else {
 			if (cnt==3) {
 				if (check == 1){
@@ -124,3 +124,5 @@ int main() {
 	}
 	printf("\n");
 }
+	
+

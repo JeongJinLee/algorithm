@@ -10,3 +10,5 @@ int main() {
 		printf("%c%c\n", a[0],a[len-1]);
 	}
 }
+	
+

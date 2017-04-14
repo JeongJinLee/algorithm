@@ -15,3 +15,5 @@ int main() {
 	}
 	printf("%d\n", cnt);
 }
+	
+

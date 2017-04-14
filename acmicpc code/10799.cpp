@@ -15,13 +15,13 @@ int main(void) {
 		}
 		else if (arr[i] == ')') {
 			
-			if (check == 1) {//·¹ÀÌÀú Â÷·ÊÀÓ
+			if (check == 1) {//ë ˆì´ì € ì°¨ë¡€ì„
 				count--;
 				for (int j = 0; j < count; j++) {
 					stack[j]++;
 				}
 			}
-			else {//¸·´ë±â³¡
+			else {//ë§‰ëŒ€ê¸°ë
 				sum += (stack[count-1]+1);
 				stack[count-1] = 0;
 				count--;
